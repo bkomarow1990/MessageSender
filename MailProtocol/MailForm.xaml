@@ -1,0 +1,42 @@
+﻿<Window x:Class="MailProtocol.MailForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MailProtocol"
+        mc:Ignorable="d"
+        Title="MailForm" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+        </Grid.RowDefinitions>
+        <DockPanel>
+            <Label>Reciever address: </Label>
+            <TextBox x:Name="recieverMailTxtBox" VerticalContentAlignment="Center">testMail@gmail.com</TextBox>
+        </DockPanel>
+         <DockPanel Grid.Row="1">
+            <Label>Your mail:</Label>
+            <TextBox x:Name="mailTxtBox" VerticalContentAlignment="Center">yourmail@gmail.com</TextBox>
+        </DockPanel>
+        
+        <DockPanel Grid.Row="2">
+            <Label>Theme:</Label>
+            <TextBox x:Name="themeTxtBox" VerticalContentAlignment="Center">Weather</TextBox>
+        </DockPanel>
+        <DockPanel Grid.Row="3" VerticalAlignment="Center">
+            <Label>Important: </Label>
+            <CheckBox x:Name="isImportantMessageCheckBox" VerticalAlignment="Center"></CheckBox>
+            <Button x:Name="addFileBtn">Add File</Button>
+        </DockPanel>
+        <TextBox x:Name="textTxtBox" Grid.Row="4">
+            Enter Text...
+        </TextBox>
+        <Button Grid.Row="5" Name="sendBtn" Click="sendBtn_Click">Send</Button>
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+C:\Users\Gnidez\source\repos\MailProtocol\DLL\bin\Debug\DLL.dll.config
+C:\Users\Gnidez\source\repos\MailProtocol\DLL\bin\Debug\DLL.dll
+C:\Users\Gnidez\source\repos\MailProtocol\DLL\bin\Debug\DLL.pdb
+C:\Users\Gnidez\source\repos\MailProtocol\DLL\bin\Debug\EntityFramework.dll
+C:\Users\Gnidez\source\repos\MailProtocol\DLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Gnidez\source\repos\MailProtocol\DLL\bin\Debug\EntityFramework.xml
+C:\Users\Gnidez\source\repos\MailProtocol\DLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Gnidez\source\repos\MailProtocol\DLL\obj\Debug\DLL.csprojAssemblyReference.cache
+C:\Users\Gnidez\source\repos\MailProtocol\DLL\obj\Debug\DLL.csproj.CoreCompileInputs.cache
+C:\Users\Gnidez\source\repos\MailProtocol\DLL\obj\Debug\DLL.csproj.CopyComplete
+C:\Users\Gnidez\source\repos\MailProtocol\DLL\obj\Debug\DLL.dll
+C:\Users\Gnidez\source\repos\MailProtocol\DLL\obj\Debug\DLL.pdb

@@ -1,0 +1,23 @@
+﻿<Window x:Class="MailProtocol.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MailProtocol"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="72" FontFamily="Helvetica">MAIL SENDER</TextBlock>
+        <DockPanel VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1">
+            <Label DockPanel.Dock="Top" FontSize="24">Login:</Label>
+            <TextBox x:Name="loginTxtBox" DockPanel.Dock="Top" FontSize="24" MinWidth="300" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Enter Login</TextBox>
+            <Label DockPanel.Dock="Top" FontSize="24">Password:</Label>
+            <PasswordBox x:Name="passwordPasswdBox" DockPanel.Dock="Top" FontSize="24" MinWidth="300" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"><!--SuperPass--></PasswordBox>
+            <Button FontSize="16" x:Name="loginBtn" Click="loginBtn_Click">LOGIN</Button>
+        </DockPanel>
+    </Grid>
+</Window>
